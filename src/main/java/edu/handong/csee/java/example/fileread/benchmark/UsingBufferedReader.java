@@ -7,7 +7,8 @@ import java.io.*;
  */
 public class UsingBufferedReader {
     public static void main(String[] args) throws IOException {
-
+    	
+    	System.out.println("The file name is " + args[0]);
 
         //-------------- Test reading 1 MB file. --------------------
 
